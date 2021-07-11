@@ -7,4 +7,4 @@ const t=document.querySelector("#date-selector"),e=document.querySelector("butto
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/color-switch"),require("./js/promisification"),require("./js/timer");
 },{"./sass/main.scss":"clu1","./js/color-switch":"SbnA","./js/promisification":"clu1","./js/timer":"yCUT"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11/src.37094117.js.map
+//# sourceMappingURL=/goit-js-hw-11/src.bf063b82.js.map
