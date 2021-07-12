@@ -1,3 +1,6 @@
+import Swal from 'sweetalert2'
+console.log(Swal);
+
 // -- ЭЛЕМЕНТЫ
 const inputEl = document.querySelector('#date-selector');
 const btnTimeStart = document.querySelector('button[data-timestart]');
@@ -9,14 +12,13 @@ const spanSeconds = document.querySelector('span[data-seconds');
 let startTime = null;
 btnTimeStart.setAttribute('disabled', true);
 
-
 // -- ДАТА ВВЕДЕННАЯ ПОЛЬЗОВАТЕЛЕМ
 inputEl.addEventListener('change', getDate);
 function getDate() {
     startTime = Date.parse(new Date(inputEl.value));
         
     if (startTime < Date.now()) {
-        alert("Please choose a date in the future");
+        Swal.fire('Сирожа, please choose a date in the future')
         return;
     }
 
