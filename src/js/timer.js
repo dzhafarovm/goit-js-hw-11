@@ -27,7 +27,7 @@ function getDate() {
 };
 
 function blockDate() {
-    tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toISOString().split('T')[0];  
+    const tomorrow = new Date(new Date().setDate(new Date().getDate() + 1)).toISOString().split('T')[0];  
     inputEl.setAttribute('min', tomorrow);
 }
 
