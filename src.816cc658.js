@@ -13,4 +13,4 @@ var t,e=arguments[3];!function(e,o){"object"==typeof exports&&"undefined"!=typeo
 },{"sweetalert2":"KH5c"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/color-switch"),require("./js/promisification"),require("./js/timer");
 },{"./sass/main.scss":"clu1","./js/color-switch":"SbnA","./js/promisification":"pTi8","./js/timer":"yCUT"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11/src.d599fb2f.js.map
+//# sourceMappingURL=/goit-js-hw-11/src.816cc658.js.map
