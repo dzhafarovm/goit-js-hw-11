@@ -1,5 +1,4 @@
 import Swal from 'sweetalert2'
-console.log(Swal);
 
 // -- ЭЛЕМЕНТЫ
 const inputEl = document.querySelector('#date-selector');
@@ -93,4 +92,8 @@ function updateClockFace({ days, hours, minutes, seconds }) {
     spanHours.textContent = hours;
     spanMinutes.textContent = minutes;
     spanSeconds.textContent = seconds;
-}
+
+    if (days === 0 && hours === 0 && minutes === 0 && seconds === 0) {
+        timer.stop();
+    }
+};
